@@ -1,0 +1,11 @@
+[package]
+name = "polymorph"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+diol = "0.8.3"
+
+[[bench]]
+name = "dyn_vs_enum"
+harness = false
